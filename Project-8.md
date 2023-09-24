@@ -90,5 +90,6 @@ BalancerMember http://Web2:80 loadfactor=5 timeout=1
 
 ### Remember, this is only internal configuration and it is also local to our LB server, these names will neither be ‘resolvable’ from other servers internally nor from the Internet.
 
+### I have just implemented a Load balancing Web Solution for my DevOps team.
 
 
