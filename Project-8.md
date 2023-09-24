@@ -84,9 +84,9 @@ BalancerMember http://Web2:80 loadfactor=5 timeout=1
 
 ### We can try to curl the Web Servers from LB locally curl http://Web1 or curl http://Web2 – it shall work.
 
-![Logs from Webserver](./images/curl-1.png)
-![Logs from Webserver](./images/curl-2.png)
-![Logs from Webserver](./images/curl-3.png)
+![curl from LB](./images/curl-1.png)
+![curl from LB](./images/curl-2.png)
+![curl from LB](./images/curl-3.png)
 
 ### Remember, this is only internal configuration and it is also local to our LB server, these names will neither be ‘resolvable’ from other servers internally nor from the Internet.
 
